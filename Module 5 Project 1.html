@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Module 5 Project 1</title>
+</head>
+<body>
+    <form method="POST" action="process.php" id="numform">
+        First name: <input type="text" name="firstName" id="firstName"><br>
+        Last name: <input type="text" name="lastName" id="lastName"><br>
+        Email: <input type="email" name="email" id="email"><br>
+        Age: <input type="number" name="age" id="age"><br>
+        <br>
+        Which of the following states have you visited?<br>
+        <br>
+        <input type="checkbox" name="state1" value="Texas">Texas<br>
+        <input type="checkbox" name="state2" value="New Mexico">New Mexico<br>
+        <input type="checkbox" name="state3" value="Utah">Utah<br>
+        <input type="checkbox" name="state4" value="California">California<br>
+        <br>
+        Which of the following colors most closely resembles or is your favorite color?<br>
+        <br>
+        <input type="radio" name="favcolor" value="Red">Red<br>
+        <input type="radio" name="favcolor" value="Yellow">Yellow<br>
+        <input type="radio" name="favcolor" value="Blue">Blue<br>
+        <input type="radio" name="favcolor" value="Orange">Orange<br>
+        <input type="radio" name="favcolor" value="Green">Green<br>
+        <input type="radio" name="favcolor" value="Purple">Purple<br>
+        <br>
+        Pick your favorite food from the list below. If your favorite food is not in the list below,select "other"?<br>
+        <br>
+        <input type="radio" name="favfood" value="Buffalo wings">Buffalo wings<br>
+        <input type="radio" name="favfood" value="Hot dogs">Hot dogs<br>
+        <input type="radio" name="favfood" value="Fried chicken">Fried chicken<br>
+        <input type="radio" name="favfood" value="Meat loaf">Meat loaf<br>
+        <input type="radio" name="favfood" value="Cheesesteak">Cheesesteak<br>
+        <input type="radio" name="favfood" value="Cheeseburger">Cheeseburger<br>
+        <input type="radio" name="favfood" value="Grits">Grits<br>
+        <input type="radio" name="favfood" value="Macaroni and cheese">Macaroni and cheese<br>
+        <input type="radio" name="favfood" value="Chicken fried steak">Chicken fried steak<br>
+        <input type="radio" name="favfood" value="Corn dog">Corn dog<br>
+        <input type="radio" name="favfood" value="Other">Other<br>
+        <br>
+        Short biography:<br>
+        <textarea rows="4" cols="40">
+        </textarea><br>
+        Select the type of vehicle you drive:<br>
+        <input list="carlist">
+        <datalist id="carlist">
+            <option value="Honda Civic">Honda Civic</option>
+            <option value="Volkswagon Jetta">Volkswagon Jetta</option>
+            <option value="Ford Focus">Ford Focus</option>
+            <option value="Dodge Charger">Dodge Charger</option>
+        </datalist><br>
+        <input type="Submit" value="Submit">
+    </form>
+</body>
+</html>
